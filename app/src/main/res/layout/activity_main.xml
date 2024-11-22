@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/lavander">
+
+    <EditText
+        android:id="@+id/journalIdInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите идентификатор группы"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/downloadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Скачать"
+        android:background="@color/temnolavander"/>
+
+    <Button
+        android:id="@+id/viewButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Смотреть"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:background="@color/temnolavander"/>
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Удалить"
+        android:visibility="gone"
+        tools:visibility="visible"
+        android:background="@color/temnolavander"/>
+</LinearLayout>
